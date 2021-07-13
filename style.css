@@ -14,16 +14,16 @@ body{
     padding: 153px 140px 86px;
 
 }
-.banner-content h2{
+  h2{
     font-size: 64px;
     color: white;
     line-height: 86px;
     margin-bottom: 27px;
 
 
-}
+ } 
 
-.banner-content a{
+ a{
     text-decoration: none;
     background-color: #E02C6D;
     color: white;
@@ -81,9 +81,50 @@ main
     font-weight: bold;
     font-size: 28px;
 }
-.card-player p{
+ p{
     font-size: 16px;
     line-height: 26px;
-    text-align: justify;
+    /* text-align: justify; */
 
+}
+
+
+/* highlite-blog  */
+
+
+.highlite-blog{
+    display: flex;
+    justify-content: space-around;
+    padding: 156px;   
+
+}
+.highlite-content{
+    width: 466px;
+    
+
+} 
+.highlight-title{
+    color: black;
+    font-size: 48px;
+}
+
+ .highlite-img img{
+    width: 567px;
+    height: 427px;
+
+    
+}
+
+/* footer */
+footer{
+    text-align: center;
+}
+.footer-logo{
+    width: 483px;
+    height: 110px;
+
+}
+
+footer h3{
+    font-size: 18px;
 }
