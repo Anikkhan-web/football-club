@@ -41,3 +41,49 @@ body{
 /* ------------
 main
 ---------- */
+.players{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.player{
+   
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 37px;
+    grid-column-gap: 37px;
+    
+    
+}
+
+.card-player{
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 2px;
+    
+}
+.card-player:hover{
+    transform: scale(1.1);
+    transition: 1s;
+
+}
+.card-player img{
+    width: 330px;
+    height: 256px;
+    justify-content: center;
+
+}
+.card-player h3{
+    font-weight: bold;
+    font-size: 28px;
+}
+.card-player p{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+
+}
