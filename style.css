@@ -60,7 +60,7 @@ body{
 }
 .slide .marquee-img img{
     height: 300px;
-    width: 300px;
+    width: 280px;
     animation: marquee 2s linear ease in infinite;
 
 }
