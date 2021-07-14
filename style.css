@@ -54,13 +54,13 @@ body{
 }
 .slide-img img{
     height: 300px;
-    width: 280px;
+    width: 300px;
    
 
 }
 .slide .marquee-img img{
     height: 300px;
-    width: 280px;
+    width: 300px;
     animation: marquee 2s linear ease in infinite;
 
 }
@@ -288,12 +288,16 @@ footer h3{
 
 }
 
-.slide-img img, .slide .marquee-img{
+.slide-img img {
    height: 200px;
-   width: 205px;
+   width: 180px;
    
 }
+.slide .marquee-img img{
+    height: 200px;
+   width: 205px;
 
+}
 
 /* players */
 .player, .highlite-blog, .highlite-img, footer{
