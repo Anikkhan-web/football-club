@@ -228,11 +228,10 @@ footer h3{
 
 
 /* players */
-.player, .highlite-blog{
+.player, .highlite-blog, .highlite-img, footer{
     display: grid;
     grid-template-columns: repeat(1,1fr);
     margin-top: 20px;
-    
 
 }
 .card-player{
@@ -243,6 +242,9 @@ footer h3{
 
 
 /* highlite-blog */
+.highlite-blog{
+    margin-top: -100px;
+}
 
 .highlite-content{
    width: 80%;
@@ -257,16 +259,32 @@ footer h3{
     margin-bottom: 20px;
 
 }
-
 .highlite-img{
-    width: 80%;
+    margin-bottom: -210px;
+
 }
+
+/* slide */
 
   .slide-section{
     display: none;
    
 }
+/* slide */
+footer{
+margin-bottom: 300px;
+text-align: center;
 
+
+
+}
+ .footer-logo {
+
+
+margin-top: 110px;
+    align-items: center;
+    width: 350px;
+}
 
    
   }
