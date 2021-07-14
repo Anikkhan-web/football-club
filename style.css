@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body{
@@ -81,7 +84,7 @@ main
 
 .card-player{
     width: 330px;
-    height: 474px;
+    height: 445px;
     padding: 15px;
     background-color: white;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -141,6 +144,7 @@ main
     text-decoration: none;
     background-color: #E02C6D;
     color: white;
+    /* margin-top: 10px; */
     padding:10px 24px 10px 24px;
 
 }
@@ -196,35 +200,69 @@ footer h3{
         /* display: flex; */
         flex-direction: column;
         width: 100%;
-      
         
-
-    }
-    .banner-content h2{
+        padding: 40px;
       
-        line-height: 36px;
        
+      
+    }
+    .banner-content{
+        margin-left: 40px;
     
-     } 
-     
-
-    
+    }
 .banner-content h2{
-    color: black;
-    font-size: 20px;
+    margin-top: 0;
+    line-height: 56px;
+    color: white;
+    font-size: 40px;
 }
 
 
 .banner-img img{
-width: 100%;
+    margin-top: 45px;
+    width: 80%;
+    
+    
 
+}
+
+
+/* players */
+.player, .highlite-blog{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-top: 20px;
+    
+
+}
+.card-player{
+    margin-top: 5px;
 }
 
 
 
 
-.player, .slide-section, 
-.highlite-blog{
+/* highlite-blog */
+
+.highlite-content{
+   width: 80%;
+   text-align: center;
+   margin-left: 60px;
+   padding: 30px;
+   box-sizing: border-box;
+   
+    
+}
+.highlite-content p{
+    margin-bottom: 20px;
+
+}
+
+.highlite-img{
+    width: 80%;
+}
+
+  .slide-section{
     display: none;
    
 }
