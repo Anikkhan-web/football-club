@@ -14,7 +14,7 @@ body{
     padding: 153px 140px 86px;
 
 }
-  h2{
+ .banner-content h2{
     font-size: 64px;
     color: white;
     line-height: 86px;
@@ -189,10 +189,46 @@ footer h3{
   /* responsive for phone */
 
   @media only screen and (max-width: 668px) {
-    .players{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        width: 50%;
-    }
+    
 
+    .banner-area{
+      
+        /* display: flex; */
+        flex-direction: column;
+        width: 100%;
+      
+        
+
+    }
+    .banner-content h2{
+      
+        line-height: 36px;
+       
+    
+     } 
+     
+
+    
+.banner-content h2{
+    color: black;
+    font-size: 20px;
+}
+
+
+.banner-img img{
+width: 100%;
+
+}
+
+
+
+
+.player, .slide-section, 
+.highlite-blog{
+    display: none;
+   
+}
+
+
+   
   }
