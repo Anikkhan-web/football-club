@@ -257,7 +257,6 @@ footer h3{
        
         flex-direction: column;
         width: 100%;
-        
         padding: 40px;
       
        
@@ -291,7 +290,7 @@ footer h3{
 
 .slide-img img, .slide .marquee-img{
    height: 200px;
-   width: 190px;
+   width: 210px;
    
 }
 
@@ -330,6 +329,11 @@ footer h3{
 .highlite-content p{
     margin-bottom: 20px;
 
+}
+.highlite-blog .highlite-img img{
+    width: 400px;
+    height: 360px;
+    margin-bottom: 20px;
 }
 .highlite-img{
     margin-bottom: -210px;
