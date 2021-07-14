@@ -256,7 +256,7 @@ footer h3{
       
        
         flex-direction: column;
-        width: 100%;
+        width: 335px;
         padding: 40px;
       
        
@@ -290,7 +290,7 @@ footer h3{
 
 .slide-img img, .slide .marquee-img{
    height: 200px;
-   width: 210px;
+   width: 205px;
    
 }
 
@@ -346,6 +346,7 @@ footer h3{
 /* leauge-number */
 .leauge-number{
     margin-top: 40px;
+    margin-right: 5px;
 }
 .numbers{
     flex-direction: column;
